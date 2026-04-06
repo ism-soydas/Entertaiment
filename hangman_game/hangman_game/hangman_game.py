@@ -146,7 +146,7 @@ class Hang_Man(object):
         
         if ct and prev_size_dDC == len(list(self.deletiDictC)):
             result_mes,cont = (self.messages_which_is_per_step_of_game('Wrong'),False if l not in self.deletiDictC 
-                  else self.messages_which_is_per_step_of_game('it used before'),False)
+                  else self.messages_which_is_per_step_of_game('Already guessed'),False)
         #Burada ise for dongusunun basinda bahsettigimiz sekilde boyut karsilastirmasi yapar
         #Ekstra olarak oyun basini ile ortasini karistirmamasi icin ct adli bir kontrol degiskeni kullandik
         #self.Message_Ins_o_Gm() fonskiyonu ise if else kontrolu altinda oyun ici gelismelere gore mesaj gonderir
@@ -163,7 +163,7 @@ class Hang_Man(object):
             return "Girdiğiniz harf bahsedilen kelime de bulunmamaktadır"
         elif gım == 'Correct':
             return "Girdiğiniz Harf doğrudur tebrikler"
-        elif gım == 'it used before':
+        elif gım == 'Already guessed':
             return "Girdiğini harf önceden kullanılmıştır"
         
         #Burada kelimelerin dogru oldugunu , yanlis oldugunu ve onceden kullanilip kullanimaldigini belirten mesajlar vardir 
