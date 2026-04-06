@@ -1,2 +1,2 @@
 # Entertaiment
-in this space , there will be games and standart projects how people will be able to funny 
+Welcome to the Entertainment zone: A collection of games and interactive projects built for pure fun
