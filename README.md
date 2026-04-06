@@ -6,5 +6,5 @@ Currently, the games and projects in this repository do not have English languag
 It will be added by the developer as soon as possible.
 
 # Note 
-this README space will update by the developer as soon as possible 
+This README space will update by the developer as soon as possible 
 
