@@ -509,3 +509,10 @@ class Hanging_Man(object):
             #try except yapisi ile kullanicin yanlis hareketini olma olasiligindan dolayi kontrol ediyoruz     
         return True if select_ls == '1' else False
         #Burada ise kullanicinin girdigi secenege baglı olarak Cikis ve yeniden oynamayi tetikleyen degeri geri donduruyoru
+    pass
+ 
+if __name__ == "__main__":
+    hgm = HangingMan()
+    hgm.user_space()
+# Burada oyunu baslatmak icin bir main secenegi olusturuyoruz 
+# Olusturdugumuz obje ile user_space() fonksiyonunu baslatip oyunu baslatiyoruz
