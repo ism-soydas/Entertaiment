@@ -1,6 +1,8 @@
 # Hangman game final version
 # The goal in this game is to find the correct answer by guessing letters or the word directly before the hangman is fully drawn
 # Under development
+# Note: In this project, the variable "hak" was intentionally kept in Turkish as a developer signature.
+# It corresponds to "attempts" or "lives" in English.
 
 # Libraries
 import random as rd
